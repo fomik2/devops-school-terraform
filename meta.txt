@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: vsfomin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDR8X8z8eTxluBFmYcfr9juXVNP6yXvhihZODqz8AhB03dbnM+0UnB4Z/gOySBU0SrHy0up59B/AL/OGsD+f+eOBsUP9oHDKE9ZSdkbCJZg9TpLeLtMAZqndicR/pbNVTkwx1/qx1UqZQ7ct6mo51UUOVJ7tx9jfHn6fUZ+xHUl+oH9jDtEK6i7Qr19SVDUSKZ7t2RvcLYFzuI1WLAho7FentQvfMvCYeNiGsB/IWnZ1fKHaZoVFZ7P3mrUGu4BCL3WqbDVXnMdbTM9mUHFWEeYYD/MpxbHd7WCBQnciH9w46VgBi9KtTHpBU+28Vyf+St5KyDMBbfQt04zKVHGHggLcD1PXhsQ9wzMetaftXh64I4JkeTnQQY/mcsjOqyYHwl5+Hn6FJNOXiN579Nsw8ci/TuccQ4o8EVxGOkeeo9CeRpp/VMPR6+XVufgWKkm77MhmmwjgK/dWxsKPPYR67nFMSGFIVIWspGUjLNRKFOnwlKWjTN+p5596HyAS7/TQUk= corpsc\vsfomin@DESKTOP-LQU6HDB
